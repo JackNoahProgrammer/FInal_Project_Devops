@@ -1,3 +1,5 @@
+mkdir ~/DevopsProject/JenkinsMountPoint
+
 docker run \
   -d \
   --name JenkinsContainer \

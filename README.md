@@ -1,7 +1,7 @@
 # FInal_Project_Devops
 start.txt
 
-install docker packages manually 
+install docker packages by script, after running exit open new shell or close terminal. 
 
 make directory : "DevopsProject"
 	mkdir DevopsProject
