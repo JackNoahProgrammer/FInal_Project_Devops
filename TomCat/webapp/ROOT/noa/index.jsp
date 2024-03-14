@@ -7,7 +7,7 @@
         for( i = 0; i < 20; i++ )
         {
           out.println( "<br><li>Testing testing... "+i );
-        $
+        }
        %>
        </ul>
        </body>
