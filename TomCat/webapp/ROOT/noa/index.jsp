@@ -3,21 +3,35 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Creative Greeting</title>
+    <title>Brilliant Greeting</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #FF6B6B, #556270); /* Gradient background */
+            color: #fff;
             text-align: center;
             margin-top: 100px;
         }
         h1 {
-            color: #333333;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .greeting {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .thank-you {
+            font-size: 18px;
+            font-style: italic;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Creative App!</h1>
+    <h1>Welcome to My Brilliant App!</h1>
     <%
         // Get the current hour
         java.util.Calendar cal = java.util.Calendar.getInstance();
@@ -33,7 +47,7 @@
             greeting = "Good evening!";
         }
     %>
-    <p><%= greeting %></p>
-    <p>Thank you for visiting. Have a great day!</p>
+    <p class="greeting"><%= greeting %></p>
+    <p class="thank-you">Thank you for visiting. Have a brilliant day!</p>
 </body>
 </html>
