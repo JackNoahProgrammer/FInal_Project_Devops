@@ -29,17 +29,17 @@ Setting token:
 
 install jenkins image:
 	docker pull jenkins/jenkins
-	mkdir JenkinsMountPoint
-	cd JenkinsMountPoint
-	docker run -d -p 8083:8080 -v ~/DevopsProject/JenkinsMountPoint:/var/jenkins_home --name JenkinsContainer jenkins/jenkins
 
-Show Jenkins passeord:
+Show Jenkins password:
 	cat ~/DevopsProject/JenkinsMountPoint/secrets/initialAdminPassword
 	
-
 install Tomcat image:
 	docker pull tomcat/tomcat
-	mkdir JenkinsMountPoint
-	cd JenkinsMountPoint
-	docker run -d -p 8082:8080 -v ~/DevopsProject/JenkinsMountPoint/TomcatMountPointWebapp:/usr/local/tomcat --name TomcatContainer tomcat
+
+Creating docker compose through yml file:
+mkdir testCompose
+cd testCompose/
+nano docker-compose.yaml
+docker-compose up -d
+
 
