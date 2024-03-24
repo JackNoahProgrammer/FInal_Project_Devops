@@ -60,7 +60,7 @@
         <h1>Hello, <%= name %>!</h1>
         <p>It's so nice to meet you. Let me introduce you to something extraordinary:</p>
         <!-- Button to navigate to colorPalette.jsp -->
-        <form action="colorPalette.jsp">
+        <form action="ColorPalette.jsp">
             <input type="submit" value="Push">
         </form>
         <%
